@@ -1,0 +1,35 @@
+{
+  "name": "jb-router",
+  "description": "react mobx jalali date input",
+  "author": {
+		"name": "mohammad javad bathaei",
+		"email": "javadbat@gmail.com"
+	},
+  "keywords": [
+    "jb",
+    "jb-dateinput",
+    "dateinput",
+    "jalali date",
+    "react",
+    "mobx"
+  ],
+  "version": "0.0.1",
+  "bugs": "https://github.com/javadbat/jb-dateinput-react/issues",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/",
+    "dist/"
+  ],
+  "main": "dist/JBDateInput.cjs.min.js",
+  "jsnext:main":"./dist/JBDateInput.min.js",
+  "module": "./dist/JBDateInput.min.js",
+  "repository": {
+		"type": "git",
+		"url": "git@github.com:javadbat/jb-dateinput-react.git"
+	},
+  "dependencies": {
+    "jb-modules": "jb-modules@0.0.1"
+  }
+}
