@@ -13,7 +13,8 @@
     "react",
     "mobx"
   ],
-  "version": "0.0.1",
+
+  "version": "0.0.3",
   "bugs": "https://github.com/javadbat/jb-dateinput-react/issues",
   "license": "MIT",
   "files": [
@@ -23,13 +24,25 @@
     "dist/"
   ],
   "main": "dist/JBDateInput.cjs.min.js",
-  "jsnext:main":"./dist/JBDateInput.min.js",
-  "module": "./dist/JBDateInput.min.js",
+  "jsnext:main":"dist/JBDateInput.min.js",
+  "module": "dist/JBDateInput.min.js",
+  "jspm": {
+    "main": "./dist/JBDateInput.systemjs.min.js",
+    "format":"register",
+    "files": [
+      "dist/JBDateInput.systemjs.min.js",
+      "dist/JBDateInput.systemjs.min.js",
+      "dist/JBDateInput.css",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+
   "repository": {
 		"type": "git",
 		"url": "git@github.com:javadbat/jb-dateinput-react.git"
 	},
   "dependencies": {
-    "jb-modules": "jb-modules@0.0.3"
+    "jb-modules": "0.0.5"
   }
 }
